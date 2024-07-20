@@ -5,8 +5,8 @@ Este repositório foi criado por mim com o objetivo de construir uma base sólid
 Importante mencionar que por mais recente que seja esse repositório, ele não reflete aos anos de experiência que possuo atuando com desenvolvimento Web e Mobile. Atuo com desenvolvimento Mobile e Frontend desde 2020 na TOTVS. 
 
 ## Sumário
-[Descrição](#descrição)
-[Status do Projeto](#status-do-projeto)
+1. [Descrição](#descrição)
+2. [Status do Projeto](#status-do-projeto)
 
 # Descrição
 Este repositório é uma iniciativa para que eu possa criar de fato um histórico concreto das tecnologias que eu domino e utilizo no meu dia-a-dia. Ou seja, aqui está centralizado tudo que eu domino em relação a desenvolvimento Mobile e Front-End. 
