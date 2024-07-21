@@ -15,7 +15,8 @@ A forma como este repositório está organizado facilita a utilização dos proj
 
 ## Distintivos
 ![Code Size](https://img.shields.io/github/languages/code-size/GAMELEIRA/estudos-frontend)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=estudos-frontend)
+![Last Commit](https://img.shields.io/github/last-commit/GAMELEIRA/estudos-frontend)
+![visitors](https://badges.strrl.dev/visits/GAMELEIRA/estudos-frontend)
 
 
 ## Status do Projeto
