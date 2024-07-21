@@ -19,6 +19,12 @@ A forma como este repositório está organizado facilita a utilização dos proj
 ![Last Commit](https://img.shields.io/github/last-commit/GAMELEIRA/estudos-frontend)
 ![Visitors](https://badges.strrl.dev/visits/GAMELEIRA/estudos-frontend)
 
+## Visuais
+
+## Estrutura do Projeto
+
+## Autores e Reconhecimento
+
 ## Licença
 [GAMELEIRA STUDY](LICENSE.md)
 
