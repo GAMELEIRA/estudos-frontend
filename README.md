@@ -6,7 +6,8 @@ Importante mencionar que por mais recente que seja esse repositório, ele não r
 
 ## Sumário
 1. [Descrição](#descrição)
-2. [Status do Projeto](#status-do-projeto)
+2. [Distintivos](#distintivos)
+3. [Status do Projeto](#status-do-projeto)
 
 ## Descrição
 Este repositório é uma iniciativa para que eu possa criar de fato um histórico concreto das tecnologias que eu domino e utilizo no meu dia-a-dia. Ou seja, aqui está centralizado tudo que eu domino em relação a desenvolvimento Mobile e Front-End. 
@@ -16,8 +17,10 @@ A forma como este repositório está organizado facilita a utilização dos proj
 ## Distintivos
 ![Code Size](https://img.shields.io/github/languages/code-size/GAMELEIRA/estudos-frontend)
 ![Last Commit](https://img.shields.io/github/last-commit/GAMELEIRA/estudos-frontend)
-![visitors](https://badges.strrl.dev/visits/GAMELEIRA/estudos-frontend)
+![Visitors](https://badges.strrl.dev/visits/GAMELEIRA/estudos-frontend)
 
+## Licença
+[GAMELEIRA STUDY](LICENSE.md)
 
 ## Status do Projeto
 O projeto está **ativo** e em constante **desenvolvimento**!
