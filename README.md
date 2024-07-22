@@ -34,18 +34,18 @@ Este repositório está organizado da seguinte forma:
 |-- 01-fundamentals
 │   |-- css
 │   |-- html
+|   |-- javascript
 |-- 02-frameworks
 │   |-- ionic
 │   |-- angular
 |-- 03-projects
-|--
 ```
 
 **Explicação**: 
 
 * Para o diretório de ***fundamentals*** está todo material prático desenvolvido por mim para estudar os fundamentos das tecnologias web. Aqui temos as principais tecnologias envolvidas para o desenvolvimento ***web*** e ***mobile***, ***htmt***, ***css*** e ***javascript***. 
 
-* Para o diretório de ***frameworks*** está todo material prático desenvolvido por mim para estudar os principais frameworks. . Aqui temos os principais ***frameworks*** envolvidos para o desenvolvimento ***web*** e ***mobile***, ***Angular*** e ***Ionic***.
+* Para o diretório de ***frameworks*** está todo material prático desenvolvido por mim para estudar os principais frameworks. Aqui temos os principais ***frameworks*** envolvidos para o desenvolvimento ***web*** e ***mobile***, ***Angular*** e ***Ionic***.
 
 * Para o diretório de ***projetcs*** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em  ***fundamentals*** e ***frameworks***, desenvolvido por mim para por em práticas esses conhecimentos. 
 
