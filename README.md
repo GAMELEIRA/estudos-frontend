@@ -26,9 +26,6 @@ A forma como este repositório está organizado facilita a utilização dos proj
 ## Visuais
 
 ## Estrutura do Projeto
-Este repositório ésta organizado da seguinte forma: 
-
-## Estrutura do Projeto
 
 Este repositório está organizado da seguinte forma:
 
