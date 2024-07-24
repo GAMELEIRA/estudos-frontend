@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Imagens</title>
-    </head>
-    <body>
-        <!--DEFINICAO DE UMA IMAGEM-->
-        <!--SRC DEFINE CAMINHO DE ONDE BUSCAR AS IMAGENS-->
-        <!--ALT DEFINE TEXTO ALTERNATIVO PARA A IMAGEM-->
-        <!--WIDTH DEFINE LARGURA DA IMAGEM-->
-        <!--HEIGHT DEFINE ALTURA DA IMAGEM-->
-        <img src="./images/pizza.png" alt="Pizza" width="100" height="auto">
-    </body>
-    <!--IMAGEM CLICAVEL-->
-    <img src="images/arara-azul.jpg" alt="Arara Azul do Filme Rio" usemap="#acoes">
+
+<head>
+    <title>Imagens</title>
+    <script src="scripts/10-imagens.js"></script>
+</head>
+
+<body>
+    <!--DEFINICAO DE UMA IMAGEM-->
+    <!--SRC DEFINE CAMINHO DE ONDE BUSCAR AS IMAGENS-->
+    <!--ALT DEFINE TEXTO ALTERNATIVO PARA A IMAGEM-->
+    <!--WIDTH DEFINE LARGURA DA IMAGEM-->
+    <!--HEIGHT DEFINE ALTURA DA IMAGEM-->
+    <img src="./images/pizza.png" alt="Pizza" width="100" height="auto">
+    <style>
+        #arara {
+            width: "700px";
+            height: "700px";
+        }
+    </style>
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--IMAGEM CLICAVEL-->
+<!--A PROPRIEDADE USEMAP IRA VINCULAR COM A TAG MAP E DEVE TER O VALOR INICIADO COM #-->
+<img id="arara" src="images/arara-azul.jpg" alt="Arara Azul do Filme Rio" usemap="#acoes">
+<map name="acoes">
+    <!--SHAPE SERA O TIPO DE FORMATO DA AREA CLICAVEL-->
+    <!--COORDS SERAO AS COORDENADAS UTILIZADAS-->
+    <!--HREF PARA ONDE SERA REDIRECIONADO NO CLIQUE-->
+    <!--ONCLICK PARA ADICAO DE EVENTO NO CLICK DA AREA CLICAVEL-->
+    <area shape="rect" coords="1, 1, 700, 700" href="https://brasilescola.uol.com.br/animais/arara-azul.htm" onclick="gritoArara()">
+</map>
+
 </html>
+
+
+    
