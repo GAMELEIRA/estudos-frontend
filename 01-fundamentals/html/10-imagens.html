@@ -18,6 +18,15 @@
             width: "700px";
             height: "700px";
         }
+        #hugo-2 {
+            background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2021/07/27/2021-07-27t041033z_705487843_sp1eh7r0blidm_rtrmadp_3_olympics-2020-tte-m-singles-r32.jpg); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; 
+            color: #fff;
+            width: 900px;
+            height: 1000px;
+        }
     </style>
 </body>
 <br>
@@ -39,7 +48,25 @@
     <!--ONCLICK PARA ADICAO DE EVENTO NO CLICK DA AREA CLICAVEL-->
     <area shape="rect" coords="1, 1, 700, 700" href="https://brasilescola.uol.com.br/animais/arara-azul.htm" onclick="gritoArara()">
 </map>
-
+<!--IMAGEM DE FUNDO-->
+<!--BACKGROUND IMAGE EH O ATRIBUTO PARA CRIAR UMA IMAGEM DE FUNDO NO ELEMENTO-->
+<!--URL É AONDE A IMAGEM ESTA LOCALIZADA-->
+<p style="background-image: url(images/hugo-calderano.png); width: 1000px; height: 500px; color: white;">
+    Hugo Calderado é considerado nos tempos atuais o melhor jogador da história do continente Americano.
+</p>
+<p id="hugo-2">
+    Hugo Calderado é considerado nos tempos atuais o melhor jogador da história do continente Americano.
+</p>
+<!--MULTIPLAS IMAGENS POR RESOLUCAO OU INDISPONIBILIDADE DE NAVEGADORES-->
+<picture>
+    <!--IMAGEM QUE SERA EXIBIDA COM A RESOLUCAO MINIMA DE ATEH 1024 PIXELS-->
+    <!--MEDIA DEFINE A RESOLUCAO-->
+    <!--SRCSET DEFINE A LOCALIZACAO DA IMAGEM-->
+    <source media="(min-width: 2048px)" srcset="./images/neymar.png">
+    <source media="(min-width: 1024px)" srcset="./images/neymar-barcelona.png">
+    <!--IMAGEM DEFAULT CASO NAO ENCONTRE UMA RESOLUCAO MINIMA-->
+    <img alt="Neymar" src="images/neymar-selecao.png">
+</picture>
 </html>
 
 
