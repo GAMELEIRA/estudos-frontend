@@ -35,15 +35,21 @@ Este repositório está organizado da seguinte forma:
 │   |-- css
 │   |-- html
 |   |-- javascript
-|-- 02-frameworks
+|-- 02-exercises
+|   |-- online-courses
+|   |-- university
+|-- 03-frameworks
 │   |-- ionic
 │   |-- angular
-|-- 03-projects
+|-- 04-projects
 ```
 
 **Explicação**: 
 
 * Para o diretório de ***fundamentals*** está todo material prático desenvolvido por mim para estudar os fundamentos das tecnologias web. Aqui temos as principais tecnologias envolvidas para o desenvolvimento ***web*** e ***mobile***, ***htmt***, ***css*** e ***javascript***. 
+
+* Para o diretório de ***exercises*** está armazenado pequenos exercicios para por em prática 
+todo conhecimento adquirido em ***fundamentals***. Aqui temos ***online-couses*** para exercicios realizados em plataformas digitais e ***university*** para exercicios realizados nas aulas de programação em graduações.
 
 * Para o diretório de ***frameworks*** está todo material prático desenvolvido por mim para estudar os principais frameworks. Aqui temos os principais ***frameworks*** envolvidos para o desenvolvimento ***web*** e ***mobile***, ***Angular*** e ***Ionic***.
 
