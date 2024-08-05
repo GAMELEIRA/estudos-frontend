@@ -5,9 +5,9 @@ const changePizza = (pizza) => {
         element.src = 'images/pizza-8-pedacos.png';
     } else if (pizza === 2) {
         element.src = 'images/pizza-6-pedacos.png';
-    }  else if (pizza === 3) {
+    } else if (pizza === 3) {
         element.src = 'images/pizza-4-pedacos.png';
-    }  else {
+    } else {
         element.src = 'images/restos-pizza.png';
     }
 }
