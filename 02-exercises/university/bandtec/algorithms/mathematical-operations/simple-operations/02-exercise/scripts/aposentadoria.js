@@ -2,6 +2,13 @@ import { Gender } from "../enums/gender.js";
 
 const calculateValue = (yearsOld, retirement) => retirement - yearsOld;
 
+const showMessage = (result, gender) => {
+    const parent = document.getElementById('messages');
+    const message = document.createElement('p');
+    message.textContent = `Você irá aposentar com ${result} anos.`; 
+    message.className = (gender === Gender.MASCULINE)? message.className = 'primary-text': message.className = 'second-text';
+    parent.appendChild(message);
+}
 export const calculateRetirement = (gender) => {
     const man = 70;
     const woman = 60;
@@ -17,7 +24,7 @@ export const calculateRetirement = (gender) => {
             result = calculateValue(yearsOld, woman)
         }
     }
-    alert(`Você irá aposentar com ${result} anos.`);
+    showMessage(result, gender);
 }
 
 window.calculateRetirement = calculateRetirement;
