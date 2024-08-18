@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-        table, tr, td, th {
+        table,
+        tr,
+        td,
+        th {
             border: 1px solid black;
-            border-collapse: collapse; /* RETRAI A UMA UNICA BORDA */
+            border-collapse: collapse; /* RETRAI A UMA UNICA BORDA. OU SEJA, FUNDE AS BORDAS PARA UMA UNICA BORDA COMPARTILHADA */
+        }
+
+        table {
+            border-spacing: 30px; /*ALTERA O ESPACAMENTO INTERNO ENTRE CELULAS. APENAS FUNCIONA SEM O COLLAPSE*/
+        }
+
+        .tr {
+            border-bottom: 1px solid #ddd; /*CRIA BORDA APENAS NA LINHA DE BAIXO AO INVES DE SER AO REDOR DO DADO. FUNCIONA APENAS SE ESTIVER DEFINIDO SEM border: 1px solid black;*/
         }
     </style>
 </head>
+
 <body>
     <!--TABELAS ORGANIZAM REGISTROS EM LINHAS E COLUNAS-->
     <!--DEFINICAO DE TABELA-->
     <table>
+        <caption>Aulas do Ensino Médio</caption>
+        <colgroup><!--DEFINE UM CONTAINER DE COLUNAS -->
+            <col span="2" style="background-color: #D6EEEE">  <!--DEFINE O CONJUNTO DE COLUNAS A SEREM AGRUPADAS-->
+            <col span="1" style="background-color: #000">  <!--DEFINE O CONJUNTO DE COLUNAS A SEREM AGRUPADAS-->
+            <!--PODEMOS ALTERAR EM UM COLGROUP AS SEGUINTES PROPRIEDADES: WIDTH, VISIBILITY, BACKGROUND, BORDER-->
+        </colgroup>
         <tr>
             <th>Segunda</th> <!--DEFINI O CAMPO DA TABELA-->
             <th>Terça</th>
@@ -40,5 +59,46 @@
             <td>Geografia</td>
         </tr>
     </table>
+
+    <!--TABELAS VERTICAIS E HORIZONTAIS-->
+    <table>
+        <tr>
+            <th></th>
+            <th style="border-spacing: 7000px;">Corinthians</th>
+            <th>Palmeiras</th>
+            <th>Santos</th>
+            <th>São Paulo</th>
+        </tr>
+        <tr>
+            <th>Libertadores</th>
+            <td>1</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th colspan="2">Nome</th><!--CAMPO QUE OCUPA 2 COLUNAS-->
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Gameleira</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <table >
+        <caption>Contatos</caption>
+        <tr class="social">
+            <th rowspan="2">E-mails</th><!--CAMPO QUE OCUPA DUAS LINHAS DA TABELA-->
+            <td>gameleira270499@gmail.com</td>
+        </tr>
+        <tr class="social">
+            <td>estudosgameleira270499@gmail.com</td>
+        </tr>
+    </table>
 </body>
+
 </html>
