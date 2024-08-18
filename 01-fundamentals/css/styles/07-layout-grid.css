@@ -1,0 +1,9 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33% 33%; /** DEFINE COMPORTAMENTO DE LINHAS E COLUNAS PARA POSICIONAR ITENS DE UM CONTAINER*/
+}
+
+.squad {
+    width: 100px;
+    height: 100px;
+}
