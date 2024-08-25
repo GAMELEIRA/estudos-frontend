@@ -20,7 +20,7 @@ main {
 
 #menu {
     display: grid;
-    grid-template-columns: 66% 33%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 #line-one {

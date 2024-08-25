@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripts Internos</title>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+</html>
+<script>
+    /** ADICIONA TEXTO POR ID DA TAG*/
+    document.getElementById('demo').innerText = 'Hello Javascript';
+    /** ADICIONA HTML POR ID DA TAG*/
+    document.getElementById('demo').innerHTML = '<span style="color:red">Gabriel<span>'
+    /** ALTERA PROPRIEDADE DO ELEMENTO HTML*/
+    document.getElementById('demo').style.fontSize = '25px';
+</script>
+<!--DEFINE COMPORTAMENTO ALTERNATIVO A SER EXIBIDO PARA USUARIOS QUE NAO TENHAM SCRIPTS HABILITADOS-->
+<noscript>
+    Desculpe mas estou com raiva de você!
+</noscript>
