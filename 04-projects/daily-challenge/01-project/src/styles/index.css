@@ -1,5 +1,6 @@
 body {
     background-color: #bdbbbb;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -10,17 +11,20 @@ main {
 
 #banner {
     width: 80%;
-    height: 1024px;
+    height: 800px;
     margin: 32px;
     padding: 8px;
     border: 1px solid transparent;
     border-radius: 32px;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 66% 33%;
 }
 
 #line-one {
@@ -31,6 +35,10 @@ main {
     display: flex;
 }
 
+#line-tree {
+    display: flex;
+}
+
 #first-card {
     color: #fff;
     background-color: orange;
@@ -38,7 +46,7 @@ main {
 
 .cards {
     width: 400px;
-    height: 200px;
+    height: 250px;
     border: 1px solid transparent;
     border-radius: 8px;
     padding: 8px;
@@ -46,24 +54,71 @@ main {
 }
 
 .cards:hover {
-    width: 400px;
-    height: 200px;
     color: #fff;
     background-color: orange;
     box-shadow: 4px 4px #f4f4f4;
     transition-duration: 0.5s;
 }
 
-#description {
-    width: 400px;
+#main-image {
+    background: #fff;
+}
+
+img {
+    width: 16%;
     height: auto;
+    border: 1px solid transparent;
+    border-radius: 90px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    object-fit: cover; 
+    padding: 8px;
+}
+
+.images {
+    color: white;
+    background-color: orange;
+    object-fit: cover;
+}
+
+
+#description {
+    width: 80%;
+    height: auto;
+    border: 0.1px solid transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #description:hover {
-    width: 400px;
     height: auto;
-    color: #fff;
-    background-color: orange;
-    box-shadow: 4px 4px #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition-duration: 0.5s;
+}
+
+#portifolio {
+    height: 500px;
+}
+
+.name {
+    color: orange;
+}
+
+.label {
+    padding: 8px;
+}
+
+.label:hover {
+    background-color: #f4f4f4;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+#title-description {
+    margin: 8px;
 }
