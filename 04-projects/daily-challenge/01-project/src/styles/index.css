@@ -1,6 +1,6 @@
 body {
     background-color: #bdbbbb;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -45,12 +45,17 @@ main {
 }
 
 .cards {
-    width: 400px;
+    width: 340px;
     height: 250px;
     border: 1px solid transparent;
     border-radius: 8px;
     padding: 8px;
     margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
 }
 
 .cards:hover {
@@ -71,7 +76,7 @@ img {
     border-radius: 90px;
     overflow: hidden;
     background-repeat: no-repeat;
-    object-fit: cover; 
+    object-fit: cover;
     padding: 8px;
 }
 
