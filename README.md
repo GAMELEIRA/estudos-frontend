@@ -36,8 +36,9 @@ Este repositório está organizado da seguinte forma:
 │   |-- html
 |   |-- javascript
 |-- 02-exercises
-|   |-- online-courses
-|   |-- university
+|   |--algorithms 
+|       |-- online-courses
+|       |-- university
 |-- 03-frameworks
 │   |-- ionic
 │   |-- angular
@@ -49,11 +50,11 @@ Este repositório está organizado da seguinte forma:
 * Para o diretório de ***fundamentals*** está todo material prático desenvolvido por mim para estudar os fundamentos das tecnologias web. Aqui temos as principais tecnologias envolvidas para o desenvolvimento ***web*** e ***mobile***, ***htmt***, ***css*** e ***javascript***. 
 
 * Para o diretório de ***exercises*** está armazenado pequenos exercicios para por em prática 
-todo conhecimento adquirido em ***fundamentals***. Aqui temos ***online-couses*** para exercicios realizados em plataformas digitais e ***university*** para exercicios realizados nas aulas de programação em graduações.
+todo conhecimento adquirido em ***fundamentals***. Aqui temos exericicios de algoritimos na pasta **algorithms**, que é divido em ***online-couses*** para exercicios realizados em plataformas digitais e ***university*** para exercicios realizados nas aulas de programação em graduações.
 
 * Para o diretório de ***frameworks*** está todo material prático desenvolvido por mim para estudar os principais frameworks. Aqui temos os principais ***frameworks*** envolvidos para o desenvolvimento ***web*** e ***mobile***, ***Angular*** e ***Ionic***.
 
-* Para o diretório de ***projetcs*** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em  ***fundamentals*** e ***frameworks***, desenvolvido por mim para por em práticas esses conhecimentos. 
+* Para o diretório de ***projetcs*** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em  ***fundamentals*** e ***frameworks***, desenvolvido por mim para por em práticas esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos disponibilizados pela (Icode This)[https://icodethis.com/app?ref=app-ideas].
 
 ## Autores e Reconhecimento
 Atualmente, estou reforçando meu conhecimento, revisitando conceitos e práticas para garantir um domínio completo dessas tecnologias. Apesar da minha ampla experiência, estou me dedicando a este esforço pessoalmente para assegurar a excelência em minha compreensão.
