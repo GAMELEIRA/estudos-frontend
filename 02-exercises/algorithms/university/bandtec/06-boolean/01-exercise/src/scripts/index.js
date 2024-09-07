@@ -4,7 +4,8 @@ const validateLogin = (email, password) => {
     } else if (email !== 'aidimin') {
         showMessage('<p>Seu login está inválido!</p>')
     } else if (password !== 'seinha') {
-        showMessage('<p>Sua senha está inválida!</p>')
+        alert('Entre em contato com o suporte para recuperar sua senha');
+        showMessage('<p>Sua senha está inválida!</p>');
     } else {
         showMessage('<p>Usuário autenticado com sucesso!</p>');
     }
