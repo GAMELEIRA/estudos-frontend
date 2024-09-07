@@ -1,5 +1,11 @@
 const showMessage = (name, frequency) => {
-    alert(`Olá, ${name}! Sua frequência foi de ${frequency}`);
+    const element = document.getElementById('response');
+    const elementChild = document.createElement('div');
+    const statusbar = document.getElementById('status-bar');
+    elementChild.innerHTML = `<p>Olá, ${name}! Sua frequência foi de <span id='frequency'>${frequency}%</span></p>`;
+    elementChild.id = 'phrase';
+    element.appendChild(elementChild);
+    statusbar.style = `width: ${frequency}%; height: 20px;`;
 }
 
 const calculateAttendance = (quantityClass, quantityFouls) => quantityClass - quantityFouls;
