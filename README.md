@@ -54,7 +54,7 @@ todo conhecimento adquirido em ***fundamentals***. Aqui temos exericicios de alg
 
 * Para o diretório de ***frameworks*** está todo material prático desenvolvido por mim para estudar os principais frameworks. Aqui temos os principais ***frameworks*** envolvidos para o desenvolvimento ***web*** e ***mobile***, ***Angular*** e ***Ionic***.
 
-* Para o diretório de ***projetcs*** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em  ***fundamentals*** e ***frameworks***, desenvolvido por mim para por em práticas esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos disponibilizados pela (Icode This)[https://icodethis.com/app?ref=app-ideas].
+* Para o diretório de ***projetcs*** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em  ***fundamentals*** e ***frameworks***, desenvolvido por mim para por em práticas esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos disponibilizados pela [Icode This](https://icodethis.com/app?ref=app-ideas).
 
 ## Autores e Reconhecimento
 Atualmente, estou reforçando meu conhecimento, revisitando conceitos e práticas para garantir um domínio completo dessas tecnologias. Apesar da minha ampla experiência, estou me dedicando a este esforço pessoalmente para assegurar a excelência em minha compreensão.
