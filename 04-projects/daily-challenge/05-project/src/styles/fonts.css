@@ -123,3 +123,11 @@
     font-weight: 100;
     font-style: italic;
 }
+
+h1 {
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
+}

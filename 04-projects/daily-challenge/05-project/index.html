@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,48 @@
     <link rel="stylesheet" href="./src/styles/index.css">
     <title>Repositories</title>
 </head>
+
 <body>
     <main>
         <div id="center-lane">
-            <div id="list-repositories">
-                <h2>Repositories</h2>
-                <p>teste</p>
+            <div id="container">
+                <div id="first-line">
+                    <button id="add">+</button>
+                </div>
+                <div id="list-repositories">
+                    <div>
+                        <h1 id="main-title">Repositories</h1>
+                        <div id="search-field">
+                            <img id="icon-search" src="./assets/images/search.png">
+                            <input id="search" type="text" placeholder="Find a repository">
+                        </div>
+                        <div>
+                            <div class="repositorie">
+                                <img class="padlock" src="./assets/images/padlock.png" alt="Icon of padlock">
+                                <a href="https://github.com/GAMELEIRA/estudos-frontend" target="_blank">GAMELEIRA/estudos-frontend</a>
+                            </div>
+                            <div class="repositorie">
+                                <img class="padlock" src="./assets/images/padlock.png" alt="Icon of padlock">
+                                <a href="https://github.com/GAMELEIRA/estudos-backend" target="_blank">GAMELEIRA/estudos-backend</a>
+                            </div>
+                            <div class="repositorie">
+                                <img class="padlock" src="./assets/images/padlock.png" alt="Icon of padlock">
+                                <a
+                                    href="https://github.com/GAMELEIRA/estudos-fundamentos-engenharia-software" target="_blank">GAMELEIRA/estudos-fundamentos-engenharia-software</a>
+                            </div>
+                            <div class="repositorie">
+                                <img class="padlock" src="./assets/images/padlock.png" alt="Icon of padlock">
+                                <a
+                                    href="https://github.com/GAMELEIRA/estudos-linguagens-programacao" target="_blank">GAMELEIRA/estudos-linguagens-programacao</a>
+                            </div>
+                        </div>
+                        <a href="https://github.com/GAMELEIRA?tab=repositories" target="_blank">Show more</a>
+                    </div>
+                </div>
+                <button id="create-organization"><b>Create an organization</b></button>
             </div>
         </div>
     </main>
 </body>
+
 </html>

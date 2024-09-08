@@ -23,9 +23,103 @@ main {
     justify-content: center;
 }
 
-#list-repositories {
+#container {
     width: 200%;
     height: 60%;
     background-color: #ffffff;
     border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first-line {
+    width: 100%;
+}
+
+#main-title {
+    margin: 8px;
+}
+
+#list-repositories {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: inline;
+}
+
+#add {
+    background-color: #8b82f0;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-size: xx-large;
+    display: inline;
+    width: 64px;
+    height: 64px;
+    float: right;
+}
+
+#add:hover {
+    box-shadow: 4px 4px #dcd9ff;
+}
+
+#search-field {
+    border: 0.3px solid black;
+    border-radius: 8px;
+    display: flex;
+    padding: 8px;
+    margin: 8px;
+}
+
+#search-field:hover {
+    box-shadow: 4px 4px #dcd9ff;
+}
+
+#icon-search {
+    width: 5%;
+    margin: 8px;
+}
+
+#search {
+    display: block;
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 8px;
+}
+
+#search:focus {
+    outline: none;
+    border-bottom: 0.01px solid black;
+}
+
+.repositorie {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 8px 0px;
+}
+
+.padlock {
+    width: 5%;
+    height: auto;
+    margin: 8px;
+}
+
+#create-organization {
+    background-color: #8b82f0;
+    border: 1px solid transparent;
+    color: #ffffff;
+    width: 100%;
+    height: 15%;
+    margin-top: auto;
+}
+
+#create-organization:hover {
+    box-shadow: 4px 4px #dcd9ff;
 }
