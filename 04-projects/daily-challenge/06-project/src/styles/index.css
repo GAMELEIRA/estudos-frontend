@@ -1,0 +1,86 @@
+body {
+    background-color: #3a4e7b;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
+    margin: 0; /* Remove qualquer margem padrão */
+}
+
+h2, p {
+    color: white;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p:hover {
+   background-color: #5bc1d6;
+   border: 1px solid transparent;
+   border-radius: 8px;
+   transition-duration: 0.5s;
+}
+
+#main-container {
+    background-color: #1e3161;
+    width: 60%;
+    height: 600px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container:hover {
+    transition-duration: 0.5s;
+    box-shadow: 4px 4px #00000072;
+}
+
+#line-one {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 8px;
+    padding: 8px;
+}
+
+.line-item {
+    margin: 8px;
+    padding: 8px;
+}
+
+.columns {
+    margin: 8px;
+    padding: 8px;
+}
+
+.line-second-column {
+    padding-right: 8px;
+    display: flex;
+}
+
+img {
+    width: 30px;
+    height: auto;
+    padding: 8px;
+    margin: 8px;
+}
+
+img:hover {
+    background-color: #5bc1d6;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+
+#line-two {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    padding: 8px;
+}
