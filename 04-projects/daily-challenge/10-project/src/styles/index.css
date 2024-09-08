@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #1E64d7, #2776f9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 33.33%;
+    height: 70%;
+    background-color: #d6ecff;
+    box-shadow: 0px 0px 20px #144BAF;
+}
+
+#header-container {
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(to right, #0D49A4, #1A67DC);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: inline;
+    font-weight: 100;
+}
+
+#first-line {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#arrow {
+    width: 5%;
+    height: auto;
+    margin: 8px;
+    padding: 8px;
+    float: left;
+}
+
+#icon-search {
+    width: 5%;
+    height: auto;
+}
+
+#search {
+    width: 80%;
+    height: 30px;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#search::placeholder {
+    color: #8AA9E7;
+}
+
+#field-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 30%;
+    border: 1px solid transparent;
+    border-radius: 90px;
+    background-color: #3874CF;
+}
+
+#main-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.image-person {
+    width: 10%;
+    height: 10%;
+    display: inline;
+}
+
+.name-person {
+    display: inline;
+    color: #0E4AA7;
+}
