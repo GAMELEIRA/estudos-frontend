@@ -16,21 +16,44 @@ const persons = [
 
 const listPersons = () => {
     const element = document.getElementById('list-persons');
-    persons.forEach((person) => {
+
+    persons.forEach((person, index) => {
         const elementChild = document.createElement('div');
         const image = document.createElement('img');
-        const namePerson = document.createElement ('p');
-        
-        namePerson.textContent = person.name;
-        namePerson.classList = 'name-person';
+        const namePerson = document.createElement('p');
+        const containerPerson = document.createElement('div');
+        const buttonPerson = document.createElement('button');
+
         image.src = person.image;
         image.alt = 'Person Image';
         image.classList = 'image-person';
-        elementChild.appendChild(namePerson);
-        elementChild.appendChild(image);
+        namePerson.textContent = person.name;
+        namePerson.classList = 'name-person';
+        containerPerson.appendChild(image);
+        containerPerson.appendChild(namePerson);
+        containerPerson.classList = 'container-person';
+        buttonPerson.textContent = 'Follow';
+        buttonPerson.classList = 'button-person';
+        buttonPerson.id = index;
+        buttonPerson.addEventListener('click', () => {
+            const button = document.getElementById(index);
+            console.log(button.textContent == 'Follow');
+            if (button.textContent === 'Follow') {
+                button.textContent = 'Unfollow';
+            } else {
+                button.textContent = 'Follow';
+            }
+        }
+        );
+        elementChild.classList = 'line-person';
+        elementChild.appendChild(containerPerson);
+        elementChild.appendChild(buttonPerson);
         element.appendChild(elementChild);
     });
 }
+
+
+
 
 
 listPersons();

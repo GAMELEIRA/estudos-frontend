@@ -93,13 +93,62 @@ h1 {
     width: 80%;
 }
 
+#body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+.container-person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line-person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 84%;
+    height: auto;
+    margin: 8%;
+}
+
 .image-person {
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
     display: inline;
+    border: 1px solid transparent;
+    border-radius: 90px;
+    margin: 0px 8px;
 }
 
 .name-person {
     display: inline;
     color: #0E4AA7;
+    font-weight: bolder;
+}
+
+.button-person {
+    background: linear-gradient(to right, #0D49A4, #1A67DC);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 90px;
+    padding: 8px;
+    margin: 8px;
+    display: inline;
+    width: 40%;
+    height: 40px;
+}
+
+.button-person:hover {
+    border: 1px solid solid;
+    border-color: #1A67DC;
+    color: #1A67DC;
+    background: transparent;
+    transition: 0.5s;
 }
