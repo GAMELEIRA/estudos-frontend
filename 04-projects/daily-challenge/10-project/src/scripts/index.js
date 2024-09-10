@@ -1,8 +1,8 @@
 let persons;
 
-const getPersons = () => {
-    persons = [
-        {   
+const loadData = (filter = false) => {
+    const normalPersons = [
+        {
             'id': 1,
             'name': 'Gabriel',
             'image': './src/assets/images/person-1.png',
@@ -24,6 +24,22 @@ const getPersons = () => {
             'following': false
         }
     ];
+
+    if (filter) {
+        const filterPersons = [...persons];
+        console.log(filterPersons);
+        normalPersons.forEach((normalPerson, index) => {
+            filterPersons.forEach((filterPerson) => {
+                if (normalPerson.id === filterPerson.id) {
+                    normalPersons[index] = filterPerson;
+                    console.log(normalPersons);
+                }
+            });
+        });
+        persons = [...normalPersons];
+    } else {
+        persons = normalPersons;
+    }
 }
 
 const filterPersons = () => {
@@ -42,14 +58,14 @@ const filterPersons = () => {
             });
             listPersons();
             if (!persons.length) {
-                getPersons();
+                loadData();
             }
         } else {
             const element = document.getElementsByClassName('line-person');
             [...element].forEach((item) => {
                 item.remove();
             });
-            getPersons();
+            loadData(true);
             listPersons();
         }
     });
@@ -58,6 +74,8 @@ const filterPersons = () => {
 
 const listPersons = () => {
     const element = document.getElementById('list-persons');
+
+    console.log('mulheres cheirosas', persons);
 
     persons.forEach((person, index) => {
         const elementChild = document.createElement('div');
@@ -74,7 +92,7 @@ const listPersons = () => {
         containerPerson.appendChild(image);
         containerPerson.appendChild(namePerson);
         containerPerson.classList = 'container-person';
-        buttonPerson.textContent = 'Follow';
+        buttonPerson.textContent = (person.following)? 'Unfollow': 'Follow';
         buttonPerson.classList = 'button-person';
         buttonPerson.id = index;
         buttonPerson.addEventListener('click', () => {
@@ -96,7 +114,7 @@ const listPersons = () => {
 }
 
 const main = () => {
-    getPersons();
+    loadData();
     listPersons();
     filterPersons();
 }
