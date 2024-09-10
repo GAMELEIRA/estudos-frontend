@@ -79,9 +79,11 @@ const listPersons = () => {
         buttonPerson.id = index;
         buttonPerson.addEventListener('click', () => {
             const button = document.getElementById(index);
-            if (button.textContent === 'Follow') {
+            if (!person.following) {
+                person.following = true;
                 button.textContent = 'Unfollow';
             } else {
+                person.following = false;
                 button.textContent = 'Follow';
             }
         }
