@@ -1,4 +1,5 @@
-let persons;
+let persons = [];
+let oldPersons = [];
 
 const loadData = (filter = false) => {
     const normalPersons = [
@@ -27,12 +28,17 @@ const loadData = (filter = false) => {
 
     if (filter) {
         const filterPersons = [...persons];
-        console.log(filterPersons);
         normalPersons.forEach((normalPerson, index) => {
             filterPersons.forEach((filterPerson) => {
                 if (normalPerson.id === filterPerson.id) {
                     normalPersons[index] = filterPerson;
-                    console.log(normalPersons);
+                }
+            });
+        });
+        normalPersons.forEach((normalPerson, index) => {
+            oldPersons.forEach((oldPerson) => {
+                if (normalPerson.id === oldPerson.id && oldPerson.following) {
+                    normalPersons[index] = oldPerson;
                 }
             });
         });
@@ -74,9 +80,6 @@ const filterPersons = () => {
 
 const listPersons = () => {
     const element = document.getElementById('list-persons');
-
-    console.log('mulheres cheirosas', persons);
-
     persons.forEach((person, index) => {
         const elementChild = document.createElement('div');
         const image = document.createElement('img');
@@ -92,7 +95,7 @@ const listPersons = () => {
         containerPerson.appendChild(image);
         containerPerson.appendChild(namePerson);
         containerPerson.classList = 'container-person';
-        buttonPerson.textContent = (person.following)? 'Unfollow': 'Follow';
+        buttonPerson.textContent = (person.following) ? 'Unfollow' : 'Follow';
         buttonPerson.classList = 'button-person';
         buttonPerson.id = index;
         buttonPerson.addEventListener('click', () => {
@@ -100,9 +103,14 @@ const listPersons = () => {
             if (!person.following) {
                 person.following = true;
                 button.textContent = 'Unfollow';
+                oldPersons.push(person);
             } else {
                 person.following = false;
                 button.textContent = 'Follow';
+                let oldPer = oldPersons.find((per) => per.id === person.id);
+                if (oldPer) {
+                    delete oldPersons[-oldPer.id];
+                }
             }
         }
         );
