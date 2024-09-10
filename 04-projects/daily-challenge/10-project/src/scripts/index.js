@@ -2,18 +2,26 @@ let persons;
 
 const getPersons = () => {
     persons = [
-        {
+        {   
+            'id': 1,
             'name': 'Gabriel',
-            'image': './src/assets/images/person-1.png'
+            'image': './src/assets/images/person-1.png',
+            'following': false
         }, {
+            'id': 2,
             'name': 'Depay',
-            'image': './src/assets/images/person-2.png'
+            'image': './src/assets/images/person-2.png',
+            'following': false
         }, {
+            'id': 3,
             'name': 'Garro',
-            'image': './src/assets/images/person-3.png'
+            'image': './src/assets/images/person-3.png',
+            'following': false
         }, {
+            'id': 4,
             'name': 'Cibele',
-            'image': './src/assets/images/person-4.png'
+            'image': './src/assets/images/person-4.png',
+            'following': false
         }
     ];
 }
@@ -22,20 +30,14 @@ const filterPersons = () => {
     const input = document.getElementById('search');
     input.addEventListener('input', () => {
         const value = input.value.toLowerCase();
-        console.log(input.value.length);
 
         if (input.value) {
             persons = persons.filter((res) => {
-                console.log(value === res.name, value, 'value', res.name, 'name');
                 return res.name.toLowerCase().includes(value);
             });
-            console.log(persons, 'pessssaooooooasss');
-            console.log(!persons, 'tem que dar true')
-            console.log(persons, 'array');
+
             const element = document.getElementsByClassName('line-person');
-            console.log(element, 'html');
             [...element].forEach((item) => {
-                console.log(item, 'item do html')
                 item.remove();
             });
             listPersons();
@@ -45,7 +47,6 @@ const filterPersons = () => {
         } else {
             const element = document.getElementsByClassName('line-person');
             [...element].forEach((item) => {
-                console.log(item, 'item do html')
                 item.remove();
             });
             getPersons();
@@ -78,7 +79,6 @@ const listPersons = () => {
         buttonPerson.id = index;
         buttonPerson.addEventListener('click', () => {
             const button = document.getElementById(index);
-            console.log(button.textContent == 'Follow');
             if (button.textContent === 'Follow') {
                 button.textContent = 'Unfollow';
             } else {
