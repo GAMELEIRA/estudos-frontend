@@ -1,8 +1,8 @@
 ## Estudos Front-End
-Este repositório foi criado por mim com o objetivo de construir uma base sólida em desenvolvimento mobile e frontend. Aqui, armazenarei os conhecimentos adquiridos, abrangendo todos os aspectos necessários para o desenvolvimento de soluções eficientes e modernas nessas áreas desde o básico até o avançado.
+Este repositório foi criado por mim com o objetivo de construir uma base sólida em desenvolvimento frontend para mobile e web. Aqui, armazenarei os conhecimentos adquiridos, abrangendo todos os aspectos necessários para o desenvolvimento de soluções eficientes e modernas nessas áreas desde o básico até o avançado.
 
 ## Experiência
-Importante mencionar que por mais recente que seja esse repositório, ele não reflete aos anos de experiência que possuo atuando com desenvolvimento Web e Mobile. Atuo com desenvolvimento Mobile e Frontend desde 2020 na TOTVS. 
+Importante mencionar que por mais recente que seja esse repositório, ele não reflete aos anos de experiência que possuo atuando com desenvolvimento Web e Mobile. Atuo com desenvolvimento Frontend desde 2020 na TOTVS. 
 
 ## Sumário
 1. [Descrição](#descrição)
@@ -14,7 +14,7 @@ Importante mencionar que por mais recente que seja esse repositório, ele não r
 7. [Status do Projeto](#status-do-projeto)
 
 ## Descrição
-Este repositório é uma iniciativa para que eu possa criar de fato um histórico concreto das tecnologias que eu domino e utilizo no meu dia-a-dia. Ou seja, aqui está centralizado tudo que eu domino em relação a desenvolvimento Mobile e Front-End. 
+Este repositório é uma iniciativa para que eu possa criar de fato um histórico concreto das tecnologias que eu domino e utilizo no meu dia-a-dia. Ou seja, aqui está centralizado tudo que eu domino em relação a desenvolvimento frontend. 
 
 A forma como este repositório está organizado facilita a utilização dos projetos desenvolvidos como base para demonstrar as tecnologias nas quais possuo expertise.
 
@@ -47,7 +47,7 @@ Este repositório está organizado da seguinte forma:
 
 **Explicação**: 
 
-* Para o diretório de ***fundamentals*** está todo material prático desenvolvido por mim para estudar os fundamentos das tecnologias web. Aqui temos as principais tecnologias envolvidas para o desenvolvimento ***web*** e ***mobile***, ***htmt***, ***css*** e ***javascript***. 
+* Para o diretório de ***fundamentals*** está todo material prático desenvolvido por mim para estudar os fundamentos das tecnologias frontend para web e mobile. Aqui temos as principais tecnologias envolvidas para o desenvolvimento ***web*** e ***mobile***, ***htmt***, ***css*** e ***javascript***. 
 
 * Para o diretório de ***exercises*** está armazenado pequenos exercicios para por em prática 
 todo conhecimento adquirido em ***fundamentals***. Aqui temos exericicios de algoritimos na pasta **algorithms**, que é divido em ***online-couses*** para exercicios realizados em plataformas digitais e ***university*** para exercicios realizados nas aulas de programação em graduações.
@@ -57,7 +57,7 @@ todo conhecimento adquirido em ***fundamentals***. Aqui temos exericicios de alg
 * Para o diretório de ***projetcs*** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em  ***fundamentals***, **exercises** e ***frameworks***, desenvolvido por mim para por em prática esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos disponibilizados pela [Icode This](https://icodethis.com/app?ref=app-ideas).
 
 ## Autores e Reconhecimento
-Atualmente, estou reforçando meu conhecimento, revisitando conceitos e práticas para garantir um domínio completo dessas tecnologias. Apesar da minha ampla experiência, estou me dedicando a este esforço pessoalmente para assegurar a excelência em minha compreensão.
+Atualmente, estou reforçando meu conhecimento, revisitando conceitos e práticas para garantir um domínio completo dessas tecnologias. Apesar da minha ampla experiência, estou me dedicando a este esforço pessoalmente para assegurar a excelência e compreensão.
 
 Gostaria de expressar minha gratidão a todos que contribuíram para a construção deste conhecimento, incluindo professores da faculdade e outros mentores ao longo do caminho.
 
