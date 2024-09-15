@@ -1,0 +1,20 @@
+{
+  "name": "01-only-persons",
+  "version": "1.0.0",
+  "description": "Projeto de cadastro e listagem de pessoas solteiras",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx cypress open",
+    "start": "http-server . --port 8081",
+    "start:dev": "nodemon --watch . --ext html,css,js --exec 'http-server . --port 8081'"
+  },
+  "author": "GAMELEIRA",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "nodemon": "^3.1.4"
+  }
+}
