@@ -38,3 +38,76 @@ header {
 #customize {
     float: right;
 }
+
+#main-container {
+    margin: 8px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 66% 33%;
+    height: 100vh;
+}
+
+#center-container {
+    width: 100%;
+    height: 100%;
+    width: 8px;
+    padding: 8px;
+    display: grid;
+    grid-template-rows: 30% 15% 15% 40%;
+}
+
+#first-line {
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 33% 66%;
+}
+
+#active-users {
+    width: 100%;
+    height: 100%;
+    background-color: #0E1732;
+    color: white;
+}
+
+#second-line {
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 33% 33% 33% 33%;
+}
+
+#third-line {
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    padding: 8px;
+}
+
+#fourth-line {
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.cards:hover {
+    width: 101%;
+    height: 101%;
+    box-shadow: 2px 2px 2px 2px #0e1732a0;
+}
