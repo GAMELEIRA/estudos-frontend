@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #F6F8FC;
+    background-color: #F5F5F5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -40,59 +40,57 @@ header {
 }
 
 #main-container {
-    margin: 8px;
-    padding: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     display: grid;
     grid-template-columns: 66% 33%;
     height: 100vh;
 }
 
 #center-container {
-    width: 100%;
-    height: 100%;
-    width: 8px;
-    padding: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    margin: 32px;
     display: grid;
     grid-template-rows: 30% 15% 15% 40%;
 }
 
 #first-line {
-    width: 100%;
-    height: 100%;
-    margin: 8px;
-    padding: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     display: grid;
     grid-template-columns: 33% 66%;
 }
 
 #active-users {
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     background-color: #0E1732;
     color: white;
+    box-shadow: 2px 2px 2px 2px #0e1732a0;
+}
+
+#views {
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+
 }
 
 #second-line {
-    width: 100%;
-    height: 100%;
-    margin: 8px;
-    padding: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     display: grid;
-    grid-template-columns: 33% 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 #third-line {
-    width: 100%;
-    height: 100%;
-    margin: 8px;
-    padding: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
 }
 
 #fourth-line {
-    width: 100%;
-    height: 100%;
-    margin: 8px;
-    padding: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -100,14 +98,28 @@ header {
 .cards {
     width: 100%;
     height: 100%;
-    margin: 8px;
-    padding: 8px;
     border: 1px solid transparent;
     border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .cards:hover {
-    width: 101%;
-    height: 101%;
+    width: calc(101% - 16px);
+    height: calc(101% - 16px);
     box-shadow: 2px 2px 2px 2px #0e1732a0;
+}
+
+.content {
+    padding: 8px;
+}
+
+#side-container {
+    width: 100% - 16px;
+    height: calc(100% - 16px);
+    margin: 32px;
+    background-color: #ffffff;
 }
