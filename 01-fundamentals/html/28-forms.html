@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--A TAG INPUT É UTILIZADA PARA COLETAR DADOS DO USUARIO-->
+    <!--ESSA TAG EH UM CONTAINER PARA DIVERSOS TIPOS DE ENTRADA-->
+    <form action="https://gameleira.github.io/portfolio/">
+        <!--DEFINE UM AGRUPADOR DO FORMULÁRIO-->
+        <fieldset>
+            <!--DEFINE UMA LEGENDA PARA O DADO PESSOAL-->
+            <legend>Dados Pessoais:</legend>
+            <div>
+                <!--DEFINE UM ROTULO PARA O TIPO DE ENTRADA-->
+                <label for="firstName">Primeiro Nome:</label>
+                <!--DEFINE UM TIPO DE ENTRADA DO USUARIO DEPENDENDO DO TYPE-->
+                <input type="text" id="first-name" name="first-name" value="Gabriel">
+            </div>
+            <div>
+                <label for="lastName">Ultimo Nome:</label>
+                <input type="text" id="last-name" name="last-name" value="Gameleira">
+            </div>
+            <div>
+                <label>Genero</label>
+                <!--DEFINE UMA LISTA SUSPENSA-->
+                <!--SIZE EH A QUANTIDADE DE OPCOES VISIVEIS NA EXIBICAO DA LISTA-->
+                <select id="gender" name="gender" size="1">
+                    <!--DEFINE UMA OPCAO DA LISTA-->
+                    <option value="" selected></option>
+                    <option value="man">Masculino</option>
+                    <option value="woman">Feminino</option>
+                </select>
+            </div>
+        </fieldset>
+        <div>
+            <label for="hobbies">Interesses</label>
+            <br>
+            <!--MULTIPLE PERMITE A SELECAO DE MULTIPLOS DADOS-->
+            <select id="hobbies" multiple size="2">
+                <option value="socccer">Futebol</option>
+                <option value="table-tennis">Tenis de Mesa</option>
+            </select>
+        </div>
+        <div>
+            <label>Profissão:</label>
+            <input list="ocuppation">
+            <!--DEFINE UMA LISTA DE VALORES PRE IDENTIFICADOS PARA FACILITAR A INSERCAO DO DADO DO USUARIO-->
+            <datalist id="ocuppation">
+                <option value="developer">Desenvolvedor(a)</option>
+                <option value="youtuber">Youtube</option>
+                <option value="tik-toker">Tik Toker</option>
+                <option value="baker">Padeiro(a)</option>
+            </datalist>
+        </div>
+        <div>
+            <label>Por quê quero esse emprego?</label>
+            <br>
+            <!--DEFINE UMA ENTRADA DE TEXTO COM MULTIPLA LINHA-->
+            <textarea name="message" rows="10" cols="30">
+            </textarea>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+    <form>
+        <!-- RÓTULO DO CAMPO DE ENTRADA 'A', UTILIZADO PARA IDENTIFICAR A ENTRADA AO USUÁRIO -->
+        <label for="a">Valor A:</label>
+        <!-- CAMPO DE ENTRADA DO TIPO NUMBER PARA RECEBER UM VALOR NUMÉRICO DO USUÁRIO -->
+        <input type="number" id="a" name="a" value="50">
+        
+        <!-- RÓTULO DO CAMPO DE ENTRADA 'B', UTILIZADO PARA IDENTIFICAR A ENTRADA AO USUÁRIO -->
+        <label for="b">Valor B:</label>
+        <!-- CAMPO DE ENTRADA DO TIPO NUMBER PARA RECEBER UM VALOR NUMÉRICO DO USUÁRIO -->
+        <input type="number" id="b" name="b" value="50">
+        
+        <!-- RÓTULO PARA O CAMPO DE SAÍDA (OUTPUT), ONDE O RESULTADO SERÁ EXIBIDO -->
+        <label>Resultado:</label>
+        <!-- O ELEMENTO OUTPUT MOSTRA O RESULTADO DOS VALORES ASSOCIADOS AOS INPUTS 'A' E 'B' -->
+        <!-- O ATRIBUTO 'FOR' RELACIONA O OUTPUT COM OS CAMPOS DE ENTRADA A E B -->
+        <output name="resultado" for="a b"></output>
+    </form>
+    <!-- FIM DO FORMULÁRIO -->
+
+    <!-- SCRIPT PARA ATUALIZAR O RESULTADO COM BASE NOS VALORES DOS CAMPOS 'A' E 'B' -->
+    <script>
+        // CAPTURA OS ELEMENTOS DE INPUT A, B E O ELEMENTO OUTPUT
+        const inputA = document.getElementById('a');
+        const inputB = document.getElementById('b');
+        const output = document.querySelector('output[for="a b"]');
+
+        // FUNÇÃO QUE ATUALIZA O OUTPUT COM A SOMA DOS VALORES DOS INPUTS
+        function updateOutput() {
+            // SOMA DOS VALORES DE A E B E ATUALIZA O ELEMENTO OUTPUT
+            output.value = parseInt(inputA.value) + parseInt(inputB.value);
+        }
+
+        // ADICIONA UM EVENTO AOS INPUTS PARA ATUALIZAR O RESULTADO SEMPRE QUE O USUÁRIO ALTERAR OS VALORES
+        inputA.addEventListener('input', updateOutput);
+        inputB.addEventListener('input', updateOutput);
+
+        // INICIALIZA O OUTPUT COM O VALOR INICIAL
+        updateOutput();
+    </script>
+</body>
+</html>
