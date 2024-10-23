@@ -64,7 +64,7 @@
         </div>
         <input type="submit" value="Enviar">
     </form>
-    <form>
+    <form id="numform" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
         <!-- RÓTULO DO CAMPO DE ENTRADA 'A', UTILIZADO PARA IDENTIFICAR A ENTRADA AO USUÁRIO -->
         <label for="a">Valor A:</label>
         <!-- CAMPO DE ENTRADA DO TIPO NUMBER PARA RECEBER UM VALOR NUMÉRICO DO USUÁRIO -->
@@ -79,29 +79,7 @@
         <label>Resultado:</label>
         <!-- O ELEMENTO OUTPUT MOSTRA O RESULTADO DOS VALORES ASSOCIADOS AOS INPUTS 'A' E 'B' -->
         <!-- O ATRIBUTO 'FOR' RELACIONA O OUTPUT COM OS CAMPOS DE ENTRADA A E B -->
-        <output name="resultado" for="a b"></output>
+        <output form="numform" id="x" name="x" for="a+b"></output>
     </form>
-    <!-- FIM DO FORMULÁRIO -->
-
-    <!-- SCRIPT PARA ATUALIZAR O RESULTADO COM BASE NOS VALORES DOS CAMPOS 'A' E 'B' -->
-    <script>
-        // CAPTURA OS ELEMENTOS DE INPUT A, B E O ELEMENTO OUTPUT
-        const inputA = document.getElementById('a');
-        const inputB = document.getElementById('b');
-        const output = document.querySelector('output[for="a b"]');
-
-        // FUNÇÃO QUE ATUALIZA O OUTPUT COM A SOMA DOS VALORES DOS INPUTS
-        function updateOutput() {
-            // SOMA DOS VALORES DE A E B E ATUALIZA O ELEMENTO OUTPUT
-            output.value = parseInt(inputA.value) + parseInt(inputB.value);
-        }
-
-        // ADICIONA UM EVENTO AOS INPUTS PARA ATUALIZAR O RESULTADO SEMPRE QUE O USUÁRIO ALTERAR OS VALORES
-        inputA.addEventListener('input', updateOutput);
-        inputB.addEventListener('input', updateOutput);
-
-        // INICIALIZA O OUTPUT COM O VALOR INICIAL
-        updateOutput();
-    </script>
 </body>
 </html>
