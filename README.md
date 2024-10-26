@@ -9,6 +9,7 @@ Importante mencionar que por mais recente que seja esse repositório, ele não r
 2. [Distintivos](#distintivos)
 3. [Visuais](#visuais)
 4. [Estrutura do Projeto](#estrutura-do-projeto)
+5. [Ferramentas Utilizadas](#ferramentas-utilizadas)
 5. [Autores e Reconhecimento](#autores-e-reconhecimento)
 6. [Licença](#licença)
 7. [Status do Projeto](#status-do-projeto)
@@ -55,6 +56,9 @@ todo conhecimento adquirido em ***fundamentals***. Aqui temos exericicios de alg
 * Para o diretório de ***frameworks*** está todo material prático desenvolvido por mim para estudar os principais frameworks. Aqui temos os principais ***frameworks*** envolvidos para o desenvolvimento ***web*** e ***mobile***, ***Angular*** e ***Ionic***.
 
 * Para o diretório de ***projetcs*** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em  ***fundamentals***, **exercises** e ***frameworks***, desenvolvido por mim para por em prática esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos disponibilizados pela [Icode This](https://icodethis.com/app?ref=app-ideas). Na pasta **consumed-apis** estão projetos que integram com apis gratuítas disponibilizadas pela ***[Public API'S](https://publicapis.dev/)*** e que consomem essas apis e disponibilizo esses dados em projetos frontend.
+
+## Ferramentas Utilizadas
+* Para validar documentos HTML -> https://validator.w3.org/
 
 ## Autores e Reconhecimento
 Atualmente, estou reforçando meu conhecimento, revisitando conceitos e práticas para garantir um domínio completo dessas tecnologias. Apesar da minha ampla experiência, estou me dedicando a este esforço pessoalmente para assegurar a excelência e compreensão.
