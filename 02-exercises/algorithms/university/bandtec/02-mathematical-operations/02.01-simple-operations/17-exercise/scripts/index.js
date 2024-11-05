@@ -7,10 +7,10 @@ const calculateContributions = (values = [], currencyValue = 0) => {
 const showMessage = (contributions = []) => {
   let message = "";
   const element = document.getElementById("messages");
-  contributions.map((person, index) => {
-    message += `<p>O <b id='label-${index}'>${person.name}</b> economizou <b>R$ ${person.valueContribution}</b> pois fez <b>${person.savings}</b> depósitos</p>`;
+  contributions.map((person) => {
+    message += `O ${person.name} economizou R$ ${person.valueContribution} pois fez ${person.savings} depósitos\n`;
   });
-  element.innerHTML = message;
+  element.innerText = message;
 };
 
 const requestCalculateSavings = () => {
