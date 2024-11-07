@@ -29,7 +29,18 @@ const tranformSsj = (sayajin = 0, strength = 0) => {
 
 const showMessage = (sayajin) => {
   const element = document.getElementById('message');
-  element.innerText = `Após se transformar em ${sayajin.name}, o ki desse Sayajin passa a ser de ${sayajin.ki}`;
+  let src;
+
+  if (sayajin.name === 'SSJ') {
+    src = './assets/images/ssj1.png';
+  } else if (sayajin.name === 'SSJ2') {
+    src = './assets/images/ssj2.png';
+  } else if (sayajin.name === 'SSJ3') {
+    src = './assets/images/ssj3.png';
+  }
+
+  element.innerHTML = `
+  <img src='${src}'/><p>Após se transformar em ${sayajin.name}, o ki desse Sayajin passa a ser de ${sayajin.ki}</p>`;
 };
 
 const requestTranformSsj = (type = 0) => {
