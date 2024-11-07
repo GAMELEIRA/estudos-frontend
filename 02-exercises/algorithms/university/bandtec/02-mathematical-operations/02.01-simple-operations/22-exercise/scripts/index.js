@@ -29,7 +29,6 @@ const tranformSsj = (sayajin = 0, strength = 0) => {
 
 const showMessage = (sayajin) => {
   const element = document.getElementById('message');
-  console.log(sayajin);
   element.innerText = `Após se transformar em ${sayajin.name}, o ki desse Sayajin passa a ser de ${sayajin.ki}`;
 };
 
