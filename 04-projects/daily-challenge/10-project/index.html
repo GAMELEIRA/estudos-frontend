@@ -1,41 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./src/styles/index.css">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/index.css" />
     <title>Social Media</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <div id="container">
-            <div id="header-container">
-                <div id="first-line">
-                    <img id="arrow" src="./src/assets/images/arrow.png" alt="Icon Arrow" onclick="filterPersons()">
-                    <div id="main-title">
-                        <h1>Find Friends</h1>
-                    </div>
-                </div>
-                <div id="field-search">
-                    <img id="icon-search" src="./src/assets/images/lupa.png" alt="Icone de uma Lupa">
-                    <input id="search" placeholder="Enter a friend's name">
-                </div>
+      <div id="container">
+        <div id="header-container">
+          <div id="first-line">
+            <img
+              id="arrow"
+              src="./src/assets/images/arrow.png"
+              alt="Icon Arrow"
+              onclick="filterPersons()"
+            />
+            <div id="main-title">
+              <h1>Find Friends</h1>
             </div>
-            <div id="body-container">
-                <div id="list-persons">
-                </div>
-            </div>
+          </div>
+          <div id="field-search">
+            <img
+              id="icon-search"
+              src="./src/assets/images/lupa.png"
+              alt="Icone de uma Lupa"
+            />
+            <input id="search" placeholder="Enter a friend's name" />
+          </div>
         </div>
+        <div id="body-container">
+          <div id="list-persons"></div>
+        </div>
+      </div>
     </main>
     <script src="./src/scripts/index.js"></script>
-</body>
-
+  </body>
 </html>
