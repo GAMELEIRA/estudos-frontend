@@ -22,6 +22,5 @@ const requestSeeEntertainment = () => {
   ];
   const type = document.getElementById('entertainment').value;
   const foundMovies = movies.find((movie) => movie.type === type);
-  console.log(foundMovies);
   showMessage(foundMovies.message);
 };
