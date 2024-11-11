@@ -33,11 +33,11 @@ const showMessage = (sayajin) => {
   let src;
 
   if (sayajin.name === 'SSJ') {
-    src = './assets/images/ssj1.png';
+    src = './src/assets/images/ssj1.png';
   } else if (sayajin.name === 'SSJ2') {
-    src = './assets/images/ssj2.png';
+    src = './src/assets/images/ssj2.png';
   } else if (sayajin.name === 'SSJ3') {
-    src = './assets/images/ssj3.png';
+    src = './src/assets/images/ssj3.png';
   }
   elementImg.src = src;
   elementText.innerText = `Após se transformar em ${sayajin.name}, o ki desse Sayajin passa a ser de ${sayajin.ki}`;
