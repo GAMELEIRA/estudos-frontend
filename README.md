@@ -1,8 +1,7 @@
 ## Estudos Front-End
 
-Este repositório foi criado por mim com o objetivo de construir uma base sólida em desenvolvimento frontend para mobile e web. Aqui, armazenarei os conhecimentos adquiridos, abrangendo todos os aspectos necessários para o desenvolvimento de soluções eficientes e modernas nessas áreas desde o básico até o avançado.
+Este repositório foi criado por mim com o objetivo de construir uma base sólida em desenvolvimento frontend para mobile e web. Aqui, armazenarei os conhecimentos adquiridos, abrangendo todos os aspectos necessários para o desenvolvimento de soluções eficientes e modernas nessas áreas desde o básico até o avançado. Usarei como base para essa jornada como guia a trilha desenvolvida pela comunidade:
 
-Usarei como base para essa jornada como guia a trilha desenvolvida pela comunidade:
 ![Mapa Mental Frontend](./assets/images/frontend.jpg)
 
 ## Sumário
