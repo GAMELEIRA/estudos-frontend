@@ -77,3 +77,5 @@ Gostaria de expressar minha gratidão a todos que contribuíram para a construç
 ## Status do Projeto
 
 O projeto está **ativo** e em constante **desenvolvimento**!
+
+Essa repositório começou em **20 de junho de 2024** com o objetivo de desenvolver um conhecimento sólido sobre as tecnologias essenciais para o desenvolvimento frontend. Planejo alcançar essa meta até **31 de dezembro de 2029**.
