@@ -1,0 +1,22 @@
+{
+  "name": "02-class-testing-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GAMELEIRA/estudos-frontend.git"
+  },
+  "author": "GAMELEIRA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GAMELEIRA/estudos-frontend/issues"
+  },
+  "homepage": "https://github.com/GAMELEIRA/estudos-frontend#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
