@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand test/",
     "test:dev": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll --runInBand test/",
-    "test:debug": "node --experimental-vm-modules --inspect-brk node_modules/.bin/ jest --watchAll --runInBand test/"
+    "test:debug": "node --experimental-vm-modules --inspect-brk ./node_modules/jest/bin/jest.js --watchAll --runInBand test/"
   },
   "author": "GAMALEIRA",
   "license": "MIT",

@@ -1,6 +1,8 @@
 import { expect, it } from '@jest/globals';
 
-const sum = (a, b) => a + b;
+const sum = (a, b) => {
+  return a + b;
+};
 
 //it EH UM OPERADOR DO JEST UTILIZADO CRIAR CASOS DE TESTES
 it('should return the sum of two numbers', () => {
