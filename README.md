@@ -58,7 +58,26 @@ Este repositório está organizado da seguinte forma:
 
 - Para o diretório de **_frameworks_** está todo material prático desenvolvido por mim para estudar os principais frameworks. Aqui temos os principais **_frameworks_** envolvidos para o desenvolvimento **_web_** e **_mobile_**, **_Angular_** e **_Ionic_**.
 
-- Para o diretório de **_projetcs_** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em **_fundamentals_**, **exercises** e **_frameworks_**, desenvolvido por mim para por em prática esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos disponibilizados pela [Icode This](https://icodethis.com/app?ref=app-ideas). Na pasta **consumed-apis** estão projetos que integram com apis gratuítas disponibilizadas pela **_[Public API'S](https://publicapis.dev/)_** e que consomem essas apis e disponibilizo esses dados em projetos frontend.
+- Para o diretório de **_projetcs_** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em **_fundamentals_**, **exercises** e **_frameworks_**, desenvolvido por mim para por em prática esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos de telas. Na pasta **consumed-apis** estão projetos que integram com apis gratuítas e que consomem essas apis e disponibilizo esses dados em projetos frontend.
+
+## Plataformas Utilizadas para Aprendizado
+
+**_###Fundamentals_**
+
+- **_[W3schools](https://www.w3schools.com/)_**
+
+**_###Exercises_**
+
+- **_[Bandtec - Algorithms Class](https://www.sptech.school/)_**
+
+**_###Projects_**
+
+- **_[Icode This](https://icodethis.com/app?ref=app-ideas)_**
+- **_[Public API'S](https://publicapis.dev/)_**
+
+**_###Tests_**
+
+- [Erick Wendel](https://play.ewacademy.com.br/)
 
 ## Ferramentas Utilizadas
 
