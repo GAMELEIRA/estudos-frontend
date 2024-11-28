@@ -10,10 +10,11 @@ Este repositório foi criado por mim com o objetivo de construir uma base sólid
 2. [Distintivos](#distintivos)
 3. [Visuais](#visuais)
 4. [Estrutura do Projeto](#estrutura-do-projeto)
-5. [Ferramentas Utilizadas](#ferramentas-utilizadas)
-6. [Autores e Reconhecimento](#autores-e-reconhecimento)
-7. [Licença](#licença)
-8. [Status do Projeto](#status-do-projeto)
+5. [Plataformas Utilizadas para Aprendizado](#plataformas-utilizadas-para-aprendizado)
+6. [Ferramentas Utilizadas](#ferramentas-utilizadas)
+7. [Autores e Reconhecimento](#autores-e-reconhecimento)
+8. [Licença](#licença)
+9. [Status do Projeto](#status-do-projeto)
 
 ## Descrição
 
@@ -62,20 +63,20 @@ Este repositório está organizado da seguinte forma:
 
 ## Plataformas Utilizadas para Aprendizado
 
-**_###Fundamentals_**
+**_ ### Fundamentals_**
 
 - **_[W3schools](https://www.w3schools.com/)_**
 
-**_###Exercises_**
+**_ ### Exercises_**
 
 - **_[Bandtec - Algorithms Class](https://www.sptech.school/)_**
 
-**_###Projects_**
+**_ ### Projects_**
 
 - **_[Icode This](https://icodethis.com/app?ref=app-ideas)_**
 - **_[Public API'S](https://publicapis.dev/)_**
 
-**_###Tests_**
+**_ ### Tests_**
 
 - [Erick Wendel](https://play.ewacademy.com.br/)
 
