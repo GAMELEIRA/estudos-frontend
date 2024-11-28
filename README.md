@@ -63,20 +63,20 @@ Este repositório está organizado da seguinte forma:
 
 ## Plataformas Utilizadas para Aprendizado
 
-_### Fundamentals_
+### **_Fundamentals_**
 
 - **_[W3schools](https://www.w3schools.com/)_**
 
-_### Exercises_
+### **_Exercises_**
 
 - **_[Bandtec - Algorithms Class](https://www.sptech.school/)_**
 
-_### Projects_
+### **_Projects_**
 
 - **_[Icode This](https://icodethis.com/app?ref=app-ideas)_**
 - **_[Public API'S](https://publicapis.dev/)_**
 
-_### Tests_
+### **_Tests_**
 
 - **_[Erick Wendel](https://play.ewacademy.com.br/)_**
 
