@@ -7,20 +7,150 @@ Este repositório foi criado por mim com o objetivo de construir uma base sólid
 ## Sumário
 
 1. [Descrição](#descrição)
-2. [Distintivos](#distintivos)
-3. [Visuais](#visuais)
-4. [Estrutura do Projeto](#estrutura-do-projeto)
-5. [Plataformas Utilizadas para Aprendizado](#plataformas-utilizadas-para-aprendizado)
-6. [Ferramentas Utilizadas](#ferramentas-utilizadas)
-7. [Autores e Reconhecimento](#autores-e-reconhecimento)
-8. [Licença](#licença)
-9. [Status do Projeto](#status-do-projeto)
+2. [Dominio](#dominio)
+3. [Distintivos](#distintivos)
+4. [Visuais](#visuais)
+5. [Estrutura do Projeto](#estrutura-do-projeto)
+6. [Plataformas Utilizadas para Aprendizado](#plataformas-utilizadas-para-aprendizado)
+7. [Ferramentas Utilizadas](#ferramentas-utilizadas)
+8. [Autores e Reconhecimento](#autores-e-reconhecimento)
+9. [Licença](#licença)
+10. [Status do Projeto](#status-do-projeto)
 
 ## Descrição
 
 Este repositório é uma iniciativa para que eu possa criar de fato um histórico concreto das tecnologias que eu domino e utilizo no meu dia-a-dia. Ou seja, aqui está centralizado tudo que eu domino em relação a desenvolvimento frontend.
 
 A forma como este repositório está organizado facilita a utilização dos projetos desenvolvidos como base para demonstrar as tecnologias nas quais possuo expertise.
+
+## Dominio
+
+O gráfico a seguir exibe de forma macro minha autoavaliação em relação ao domínio das linguagens e frameworks que estudei e armazenei neste repositório.
+
+<section id="dashboard" style="width: 100%; height: 300px">
+  <ul style="width: 80%; height: auto; list-style-type: none">
+    <li>
+      <h3>Fundamentals</h3>
+      <ul style="width: 100%; height: auto; list-style-type: none">
+        <li>
+          <h4>HTML</h4>
+          <div
+            style="
+              width: 100%;
+              height: 10px;
+              background-color: #f0f0f0;
+              border: 0.1px solid #ccc;
+            "
+          >
+            <div
+              style="background-color: #0c9abe; width: 60%; height: 100%"
+            ></div>
+          </div>
+        </li>
+        <li>
+          <h4>CSS</h4>
+          <div
+            style="
+              width: 100%;
+              height: 10px;
+              background-color: #f0f0f0;
+              border: 0.1px solid #ccc;
+            "
+          >
+            <div
+              style="background-color: #0c9abe; width: 10%; height: 100%"
+            ></div>
+          </div>
+        </li>
+        <li>
+          <h4>JS</h4>
+          <div
+            style="
+              width: 100%;
+              height: 10px;
+              background-color: #f0f0f0;
+              border: 0.1px solid #ccc;
+            "
+          >
+            <div
+              style="background-color: #0c9abe; width: 10%; height: 100%"
+            ></div>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h3>Frameworks</h3>
+      <ul style="width: 100%; height: auto; list-style-type: none">
+        <li>
+          <h4>Angular</h4>
+          <div
+            style="
+              width: 100%;
+              height: 10px;
+              background-color: #f0f0f0;
+              border: 0.1px solid #ccc;
+            "
+          >
+            <div
+              style="background-color: #0c9abe; width: 0%; height: 100%"
+            ></div>
+          </div>
+        </li>
+        <li>
+          <h4>Ionic</h4>
+          <div
+            style="
+              width: 100%;
+              height: 10px;
+              background-color: #f0f0f0;
+              border: 0.1px solid #ccc;
+            "
+          >
+            <div
+              style="background-color: #0c9abe; width: 0%; height: 100%"
+            ></div>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h3>Tests</h3>
+      <ul style="width: 100%; height: auto; list-style-type: none">
+        <li>
+          <h4>Jest</h4>
+          <div
+            style="
+              width: 100%;
+              height: 10px;
+              background-color: #f0f0f0;
+              border: 0.1px solid #ccc;
+            "
+          >
+            <div
+              style="background-color: #0c9abe; width: 10%; height: 100%"
+            ></div>
+          </div>
+        </li>
+        <li>
+          <h4>Cypress</h4>
+          <div
+            style="
+              width: 100%;
+              height: 10px;
+              background-color: #f0f0f0;
+              border: 0.1px solid #ccc;
+            "
+          >
+            <div
+              style="background-color: #0c9abe; width: 0%; height: 100%"
+            ></div>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</section>
 
 ## Distintivos
 
@@ -82,7 +212,7 @@ Este repositório está organizado da seguinte forma:
 
 ## Ferramentas Utilizadas
 
-- Para validar documentos HTML -> https://validator.w3.org/
+- [Validar Documentos HTML](https://validator.w3.org/)
 
 ## Autores e Reconhecimento
 
