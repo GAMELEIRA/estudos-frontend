@@ -3,7 +3,11 @@
 html/w3schools/.DS_Store
 html/w3schools/.DS_Store
 
-#TESTES
+#FUNDAMENTALS
+01-fundamentals/01-platforms/web/04-typescript/01-courses/01-essential-training-typescript/01-module/01-tsconfig/node_modules
+01-fundamentals/01-platforms/web/04-typescript/01-courses/01-essential-training-typescript/01-module/02-ts-compiler/node_modules
+
+#TESTS
 05-tests/01-only-persons/node_modules
 05-tests/web/courses/ta-js-erick-wendel/01-class-setup/node_modules
 05-tests/web/courses/ta-js-erick-wendel/02-class-testing-concepts/node_modules
