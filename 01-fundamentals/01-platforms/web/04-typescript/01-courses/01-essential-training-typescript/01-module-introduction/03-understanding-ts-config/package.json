@@ -1,0 +1,17 @@
+{
+  "name": "03-understanding-ts-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "22.10.1",
+    "typescript": "5.2.2"
+  }
+}

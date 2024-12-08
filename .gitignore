@@ -4,8 +4,9 @@ html/w3schools/.DS_Store
 html/w3schools/.DS_Store
 
 #FUNDAMENTALS
-01-fundamentals/01-platforms/web/04-typescript/01-courses/01-essential-training-typescript/01-module/01-tsconfig/node_modules
-01-fundamentals/01-platforms/web/04-typescript/01-courses/01-essential-training-typescript/01-module/02-ts-compiler/node_modules
+01-fundamentals/01-platforms/web/04-typescript/01-courses/01-essential-training-typescript/01-module-introduction/01-tsconfig/node_modules
+01-fundamentals/01-platforms/web/04-typescript/01-courses/01-essential-training-typescript/01-module-introduction/02-ts-compiler/node_modules
+01-fundamentals/01-platforms/web/04-typescript/01-courses/01-essential-training-typescript/01-module-introduction/03-understanding-ts-config/node_modules
 
 #TESTS
 05-tests/01-only-persons/node_modules
