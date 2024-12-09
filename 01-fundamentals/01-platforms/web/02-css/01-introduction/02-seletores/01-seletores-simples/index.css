@@ -1,0 +1,31 @@
+/*SELETORES SIMPLES*/
+
+/*NOME*/
+p {
+  color: red
+}
+
+/*ID*/
+#texto-1 {
+  color: #0000ff;
+}
+
+/*CLASSE*/
+.texto {
+  color: #ffff00;
+}
+
+p.texto {
+  color: blue;
+}
+
+/*SELETOR UNIVERSAL QUE AFETA TODOS OS ELEMENTOS HTML*/
+* {
+  text-align: center;
+}
+
+/*AGRUPAR MULTIPLOS SELETORES QUE POSSUEM AS MESMAS CARACTERISTICAS*/
+h1, h2, h3 {
+  text-align: center;
+  color: red;
+}
