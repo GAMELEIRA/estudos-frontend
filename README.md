@@ -27,7 +27,7 @@ A forma como este repositório está organizado facilita a utilização dos proj
 
 O gráfico a seguir exibe de forma macro minha autoavaliação em relação ao domínio das linguagens e frameworks que estudei e armazenei neste repositório.
 
-![Demonstração de Aprendizado](./assets/images/learning-frontend.png)
+<img width="40%" height="auto" src="./assets/images/learning-frontend.png" alt="Auto Avaliação Dominio das Tecnologias"/>
 
 ## Distintivos
 
