@@ -1,10 +1,10 @@
-## Estudos Front-End
+# Estudos Front-End
 
 Este repositório foi criado por mim com o objetivo de construir uma base sólida em desenvolvimento frontend para mobile e web. Aqui, armazenarei os conhecimentos adquiridos, abrangendo todos os aspectos necessários para o desenvolvimento de soluções eficientes e modernas nessas áreas desde o básico até o avançado. Usarei como base para essa jornada como guia a trilha desenvolvida pela [comunidade](https://github.com/arthurspk/guiadofrontend):
 
 ![Mapa Mental Frontend](./assets/images/frontend.jpg)
 
-## Sumário
+# Sumário
 
 1. [Descrição](#descrição)
 2. [Dominio](#dominio)
@@ -17,29 +17,29 @@ Este repositório foi criado por mim com o objetivo de construir uma base sólid
 9. [Licença](#licença)
 10. [Status do Projeto](#status-do-projeto)
 
-## Descrição
+# Descrição
 
 Este repositório é uma iniciativa para que eu possa criar de fato um histórico concreto das tecnologias que eu domino e utilizo no meu dia-a-dia. Ou seja, aqui está centralizado tudo que eu domino em relação a desenvolvimento frontend.
 
 A forma como este repositório está organizado facilita a utilização dos projetos desenvolvidos como base para demonstrar as tecnologias nas quais possuo expertise.
 
-## Dominio
+# Dominio
 
-O gráfico a seguir exibe de forma macro minha autoavaliação em relação ao domínio das linguagens e frameworks que estudei e armazenei neste repositório.
+O gráfico a seguir exibe de forma macro minha auto avaliação em relação ao domínio das linguagens e frameworks que estudei e armazenei neste repositório.
 
 <img width="100%" height="auto" src="./assets/images/status-fundamentals.png" alt="Auto Avaliação Dominio das Tecnologias Fundamentais"/>
 <img width="100%" height="auto" src="./assets/images/status-frameworks.png" alt="Auto Avaliação Dominio dos Frameworks"/>
 <img width="100%" height="auto" src="./assets/images/status-tests.png" alt="Auto Avaliação Dominio das Tecnologias de Testes"/>
 
-## Distintivos
+# Distintivos
 
 ![Code Size](https://img.shields.io/github/languages/code-size/GAMELEIRA/estudos-frontend)
 ![Last Commit](https://img.shields.io/github/last-commit/GAMELEIRA/estudos-frontend)
 ![Visitors](https://badges.strrl.dev/visits/GAMELEIRA/estudos-frontend)
 
-## Visuais
+# Visuais
 
-## Estrutura do Projeto
+# Estrutura do Projeto
 
 Este repositório está organizado da seguinte forma:
 
@@ -70,40 +70,40 @@ Este repositório está organizado da seguinte forma:
 
 - Para o diretório de **_projetcs_** estão armezados todos os minis projetos práticos usando o conhecimento adquirido em **_fundamentals_**, **exercises** e **_frameworks_**, desenvolvido por mim para por em prática esses conhecimentos. Na pasta **daily-challeng** temos projetos desenvolvidos em um dia baseado em protótipos de telas. Na pasta **consumed-apis** estão projetos que integram com apis gratuítas e que consomem essas apis e disponibilizo esses dados em projetos frontend.
 
-## Plataformas Utilizadas para Aprendizado
+# Plataformas Utilizadas para Aprendizado
 
-### **_Fundamentals_**
+## **_Fundamentals_**
 
 - **_[W3schools](https://www.w3schools.com/)_**
 
-### **_Exercises_**
+## **_Exercises_**
 
 - **_[Bandtec - Algorithms Class](https://www.sptech.school/)_**
 
-### **_Projects_**
+## **_Projects_**
 
 - **_[Icode This](https://icodethis.com/app?ref=app-ideas)_**
 - **_[Public API'S](https://publicapis.dev/)_**
 
-### **_Tests_**
+## **_Tests_**
 
 - **_[Erick Wendel](https://play.ewacademy.com.br/)_**
 
-## Ferramentas Utilizadas
+# Ferramentas Utilizadas
 
 - [Validar Documentos HTML](https://validator.w3.org/)
 
-## Autores e Reconhecimento
+# Autores e Reconhecimento
 
 Atualmente, estou reforçando meu conhecimento, revisitando conceitos e práticas para garantir um domínio completo dessas tecnologias. Apesar da minha ampla experiência, estou me dedicando a este esforço pessoalmente para assegurar a excelência e compreensão.
 
 Gostaria de expressar minha gratidão a todos que contribuíram para a construção deste conhecimento, incluindo professores da faculdade e outros mentores ao longo do caminho.
 
-## Licença
+# Licença
 
 [GAMELEIRA STUDY](LICENSE.md)
 
-## Status do Projeto
+# Status do Projeto
 
 O projeto está **ativo** e em constante **desenvolvimento**!
 
