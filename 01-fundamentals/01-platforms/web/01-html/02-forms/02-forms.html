@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <main>
+      <!--FORM EH UMA TAG QUE EH UTILIZADA PARA COLETAR A ENTRADA DO USUARIO-->
+      <form action="./06-input-attributes.html">
+        <!--LABEL EH UMA TAG QUE DEFINE UM ROTULO PARA O INPUT-->
+        <label for="name">Nome:</label>
+        <!--INPUT EH UMA TAG QUE DEFINE UM CAMPO DE ENTRADA PARA INFORMAR UM VALOR-->
+        <input id="name" type="text" />
+
+        <br />
+
+        <!--TIPOS DE ENTRADAS-->
+        <!--TEXTO-->
+        <label for="middle-name">Sobrenome:</label>
+        <input id="middle-name" type="text" />
+
+        <br />
+
+        <!--SELECT-->
+        <label for="gender">Gênero:</label>
+        <!--SELECT EH UMA TAG QUE DEFINE UM SELECT COM MULTIPLAS OPCOES-->
+        <select id="gender" name="gender" size="3" multiple>
+          <!--OPTION EH UMA TAG QUE DEFINE UMA OPÇÃO PARA UM SELECT-->
+          <option value="male">Masculino</option>
+          <option value="female">Feminino</option>
+          <option value="other">Outro</option>
+        </select>
+        <br />
+        <!--TEXTO COM MULTIPLAS LINHAS-->
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <br>
+        <input type="radio" id="html" name="language" value="HTML" />
+        <label for="html">HTML</label><br />
+        <input type="radio" id="css" name="language" value="CSS" />
+        <label for="css">CSS</label>
+        <br>
+        <!--MULTIPLAS SELECOES-->
+        <input id="car-1" name="car-1" value="BMW" type="checkbox">
+        <label for="car-1">BMW</label>
+        <input id="car-2" name="car-2" value="BMW" type="checkbox">
+        <label for="car-2">Ferrari</label>
+        <button>Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
