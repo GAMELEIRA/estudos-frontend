@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atributos</title>
+</head>
+<body>
+  <main>
+    <!--ATRIBUTO ACTION DEFINE A ACAO A SER EXECUTADA QUANDO O FORMULARIO EH ENVIADO-->
+    <form action="./02-forms.html"></form>
+    <!--
+      _BLANK   A RESPOSTA É EXIBIDA EM UMA NOVA JANELA OU GUIA
+      _SELF    A RESPOSTA É EXIBIDA NA JANELA ATUAL
+      _PARENT  A RESPOSTA É EXIBIDA NO FRAME PAI
+      _TOP     A RESPOSTA É EXIBIDA NO CORPO INTEIRO DA JANELA
+      FRAMENAME A RESPOSTA É EXIBIDA EM UM IFRAME NOMEADO
+    -->
+    <form target="_blank"></form>
+    <!--ATRIBUTO METHOD DEFINE O METODO HTTP A SER EXECUTADO QUANDO O FORMULARIO EH ENVIADO-->
+    <form action="./02-forms.html" method="get"></form>
+
+    <!--ATRIBUTO ENCTYPE DEFINE O TIPO DE CONTEUDO A SER ENVIADO-->
+    <!--POSSIVEIS VALORES: application/x-www-form-urlencoded, multipart/form-data, text/plain-->
+    <form action="./02-forms.html" method="post" enctype="multipart/form-data"></form>
+    
+    <!--ATRIBUTO AUTOCOMPLETE DEFINE SE OS CAMPOS DO FORMULARIO SERAO COMPLETADOS AUTOMATICAMENTE-->
+    <form action="./02-forms.html" autocomplete="on"></form>
+    
+    <!--ATRIBUTO NOVALIDATE DEFINE QUE O FORMULARIO NAO SERA VALIDADO-->
+    <form action="./02-forms.html" novalidate>
+
+  </main>
+</body>
+</html>
