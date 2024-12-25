@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elements</title>
+  </head>
+  <body>
+    <!--POSSIVEIS ELEMENTOS DE UM FORMULARIO-->
+    <form>
+      <!--PARA ENTRADA DE DADOS-->
+      <input />
+
+      <!--PARA ROTULAR O INPUT-->
+      <label for="nome"></label>
+
+      <!--PARA SELECIONAR UM OU MAIS ITENS DE UMA LISTA-->
+      <select>
+        <option value="opcao1">Opção 1</option>
+        <option value="opcao2">Opção 2</option>
+        <option value="opcao3">Opção 3</option>
+      </select>
+
+      <!--PARA ENTRADA DE TEXTO MULTIPLA LINHAS-->
+      <textarea></textarea>
+
+      <!--PARA ENVIAR O FORMULARIO-->
+      <button></button>
+
+      <!--PARA AGRUPAR O CONTEUDO DE UM FORMULARIO-->
+      <fieldset>
+        <!--PARA DEFINIR UM LEGENDA PARA O GRUPO-->
+        <legend></legend>
+      </fieldset>
+
+      <label for="list-browsers">Browsers:</label>
+      <input id="list-browsers" list="browsers" />
+      <!--DEFINE UMA LISTA DE OPCOES PREDEFINIDAS PARA UM INPUT-->
+
+      <datalist id="browsers">
+        <!--DEFINE UMA OPCAO PARA O DATALIST-->
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+      <!--PARA EXIBIR O VALOR DO INPUT SELECIONADO-->
+      <output></output>
+    </form>
+  </body>
+</html>
