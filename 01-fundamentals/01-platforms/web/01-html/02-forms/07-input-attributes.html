@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <!--form NOME DEFINE O NOME DO FORMULARIO-->
+   <form name="myForm">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--action ESPECIFICA A URL QUE O FORMULARIO SERÁ ENVIADO PARA QUANDO O USUARIO CLICA EM SUBMIT-->
+  <form action="https://gameleira.github.io/portfolio/">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--method ESPECIFICA O METODO DE ENVIO DO FORMULARIO (GET OU POST)-->
+  <form action="https://gameleira.github.io/portfolio/" method="post">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--enctype ESPECIFICA O TIPO DE ENCODAGEM DO FORMULARIO (application/x-www-form-urlencoded, multipart/form-data, text/plain)--
+  <form action="https://gameleira.github.io/portfolio/" method="post" enctype="multipart/form-data">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--target ESPECIFICA O FRAME OU JANELA QUE A RESPOSTA DO FORMULARIO SERÁ EXIBIDA-->
+  <form action="https://gameleira.github.io/portfolio/" method="post" target="_blank">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--autocomplete ESPECIFICA SE OS CAMPOS DO FORMULARIO SERÃO COMPLETADOS AUTOMATICAMENTE-->
+  <form action="https://gameleira.github.io/portfolio/" method="post" autocomplete="on">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--submit ESPECIFICA A AÇÃO QUE SERÁ EXECUTADA QUANDO O USUARIO CLICA EM SUBMIT-->
+  <form action="https://gameleira.github.io/portfolio/" method="post" onsubmit="return validaForm()">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!-- FORMULÁRIO QUE ENVIA DADOS PARA "/action_page.php" -->
+  <form action="/action_page.php">
+    <!-- LABEL E CAMPO DE ENTRADA PARA O NOME (FIRST NAME) -->
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <!-- LABEL E CAMPO DE ENTRADA PARA O SOBRENOME (LAST NAME) -->
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <!-- BOTÃO DE ENVIO PADRÃO -->
+    <input type="submit" value="Submit">
+    <!-- BOTÃO DE ENVIO COM DESTINO ALTERNATIVO PARA "/action_page2.php" -->
+    <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+  </form>
+
+  <!-- FORMULÁRIO QUE ENVIA DADOS PARA "/action_page_binary.asp" COM MÉTODO POST -->
+  <form action="/action_page_binary.asp" method="post">
+    <!-- LABEL E CAMPO DE ENTRADA PARA O NOME (FIRST NAME) -->
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <!-- BOTÃO DE ENVIO PADRÃO -->
+    <input type="submit" value="Submit">
+    <!-- BOTÃO DE ENVIO COM CODIFICAÇÃO "MULTIPART/FORM-DATA" -->
+    <input type="submit" formenctype="multipart/form-data"
+    value="Submit as Multipart/form-data">
+  </form>
+
+  <!-- FORMULÁRIO QUE ENVIA DADOS PARA "/action_page.php" COM MÉTODO GET -->
+  <form action="/action_page.php" method="get">
+    <!-- LABEL E CAMPO DE ENTRADA PARA O NOME (FIRST NAME) -->
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <!-- LABEL E CAMPO DE ENTRADA PARA O SOBRENOME (LAST NAME) -->
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <!-- BOTÃO DE ENVIO USANDO O MÉTODO GET -->
+    <input type="submit" value="Submit using GET">
+    <!-- BOTÃO DE ENVIO ALTERNATIVO USANDO O MÉTODO POST -->
+    <input type="submit" formmethod="post" value="Submit using POST">
+  </form>
+
+  <!-- FORMULÁRIO QUE ENVIA DADOS PARA "/action_page.php" -->
+  <form action="/action_page.php">
+    <!-- LABEL E CAMPO DE ENTRADA PARA O NOME (FIRST NAME) -->
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <!-- LABEL E CAMPO DE ENTRADA PARA O SOBRENOME (LAST NAME) -->
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <!-- BOTÃO DE ENVIO PADRÃO -->
+    <input type="submit" value="Submit">
+    <!-- BOTÃO DE ENVIO QUE ABRE O RESULTADO EM UMA NOVA ABA OU JANELA -->
+    <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+  </form>
+
+  <!-- FORMULÁRIO QUE ENVIA DADOS PARA "/action_page.php" -->
+  <form action="/action_page.php">
+    <!-- LABEL E CAMPO DE ENTRADA PARA O EMAIL -->
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <!-- BOTÃO DE ENVIO PADRÃO -->
+    <input type="submit" value="Submit">
+    <!-- BOTÃO DE ENVIO SEM VALIDAÇÃO -->
+    <input type="submit" formnovalidate="formnovalidate"
+    value="Submit without validation">
+  </form>
+
+  <!-- FORMULÁRIO QUE ENVIA DADOS PARA "/action_page.php" COM VALIDAÇÃO DESATIVADA -->
+  <form action="/action_page.php" novalidate>
+    <!-- LABEL E CAMPO DE ENTRADA PARA O EMAIL -->
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <!-- BOTÃO DE ENVIO PADRÃO -->
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
