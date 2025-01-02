@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atributos de Entrada</title>
+</head>
+
+  <!--value ESPECIFICA UM VALOR DEFAULT PARA UM CAMPO DE ENTRADA-->
+  <input type="text" value="Gabriel">
+
+  <!--readonly ESPECIFICA UM CAMPO DE ENTRADA SOMENTE LEITURA, OU SEJA IMUTAVEL-->
+  <input type="readonly"/>
+
+  <!--disabled DEFINE QUE O CAMPO DE ENTRADA NAO PODE SER MODIFICADO E NAO SERA ENVIADO PARA SER PROCESSADO NO SERVIDOR-->
+  <input type="text" disabled>
+
+  <!--required DEFINE QUE O CAMPO DE ENTRADA É OBRIGATORIO E PRECISA SER PREENCHIDO-->
+  <input type="text" required>
+
+  <!--size ESPECIFICA UM CAMPO DE ENTRADA PARA LARGURA VISIVEL EM CARACTERES-->
+  <!--VALOR PADRAO EH 20-->
+  <input type="text" size="10">
+
+  <!--min ESPECIFICA O NUMERO MINIMO QUE O CAMPO DE ENTRADA DEVE TER-->
+  <!--max ESPECIFICA O NUMERO MAXIMO QUE O CAMPO DE ENTRADA DEVE TER-->
+  <input type="number" min="18"max="65">
+
+  <!--multiple ESPECFICA QUE O USUARIO TEM PERMISSAO PARA INSERIR MAIS DE UM VALOR EM UM CAMPO DE ENTRADA-->
+  <input type="file" id="files" name="files" multiple>
+
+  <!--minlength ESPECIFICA O NUMERO MINIMO DE CARACTERES QUE O CAMPO DE ENTRADA DEVE TER-->
+  <input type="text" minlength="5">
+
+  <!--maxlength ESPECIFICA O NUMERO MAXIMO DE CARACTERES QUE O CAMPO DE ENTRADA DEVE TER-->
+  <input type="text" maxlength="10">
+
+  <!--pattern ESPECIFICA UM PADRAO PARA O CAMPO DE ENTRADA COM REGEX-->
+  <!--EXEMPLO: pattern="[a-zA-Z]+" permite apenas letras-->
+  <input type="text" pattern="[a-zA-Z]+">
+
+  <!--placeholder ESPECIFICA UM TEXTO QUE APARECE NO CAMPO DE ENTRADA QUANDO NAO TEM VALOR-->
+  <input type="text" placeholder="Insira seu nome aqui">
+
+  <!--step ESPECIFICA O INTERVALO EM QUE O VALOR DE UM CAMPO DE ENTRADA NUMERICO PODE SER MODIFICADO-->
+  <input type="number" id="points" name="points" step="3">
+
+  <!--autofocus DEFINE QUE O CAMPO DE ENTRADA SERÁ ATUALMENTE SELECIONADO QUANDO A PAGINA FOR CARREGADA-->
+  <input type="text" autofocus>
+
+  <!--autocomplete ESPECIFICA SE O COMPUTADOR DE BUSCA DEVE SUGERIR VALORES PARA O CAMPO DE ENTRADA-->
+  <!--off, on ou no-suggest-->
+  <input type="text" autocomplete="on">
+
+  <!--form NOME DEFINE O NOME DO FORMULARIO-->
+  <form name="myForm">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--action ESPECIFICA A URL QUE O FORMULARIO SERÁ ENVIADO PARA QUANDO O USUARIO CLICA EM SUBMIT-->
+  <form action="https://gameleira.github.io/portfolio/">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--method ESPECIFICA O METODO DE ENVIO DO FORMULARIO (GET OU POST)-->
+  <form action="https://gameleira.github.io/portfolio/" method="post">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--enctype ESPECIFICA O TIPO DE ENCODAGEM DO FORMULARIO (application/x-www-form-urlencoded, multipart/form-data, text/plain)--
+  <form action="https://gameleira.github.io/portfolio/" method="post" enctype="multipart/form-data">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+
+  <!--target ESPECIFICA O FRAME OU JANELA QUE A RESPOSTA DO FORMULARIO SERÁ EXIBIDA-->
+  <form action="https://gameleira.github.io/portfolio/" method="post" target="_blank">
+    <!--campo de entrada-->
+    <input type="text" name="nome">
+  </form>
+</body>
+</html>
