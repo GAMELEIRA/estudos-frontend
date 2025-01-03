@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas</title>
+  </head>
+  <body>
+    <!--CANVAS EH UMA TAG UTILIZADA PARA DESENHAR GRAFICOS DINAMICAMENTE VIA JAVASCRIPT-->
+    <!--CANVAS EH UM CONTAINER PARA GRAFICOS-->
+    <!--COM CANVAS EH POSSIVEL DESENHAR CAMINHOS, CAIXAS, CIRCULOS, TEXTO E ADICIONAR IMAGENS-->
+    <canvas
+      style="background-color: black"
+      id="canvas"
+      width="200px"
+      height="200px"
+    ></canvas>
+    <br />
+    <canvas id="line" width="200px" height="200px"></canvas>
+    <br />
+    <canvas id="circle" width="200px" height="200px"></canvas>
+    <br />
+    <canvas id="text" width="400px" height="200px"></canvas>
+    
+    <script>
+      // DEFINE A FUNÇÃO QUE VAI DESENHAR UMA LINHA
+      const drawLine = () => {
+        // SELECIONA O ELEMENTO CANVAS COM ID "LINE"
+        const canvas = document.getElementById("line");
+        // OBTER O CONTEXTO DE DESENHO 2D
+        const context = canvas.getContext("2d");
+        // MOVE O PONTAO PARA O INICIO DA LINHA (0,0)
+        context.moveTo(0, 0);
+        // DESENHA UMA LINHA ATÉ A PONTA (200,200)
+        context.lineTo(200, 200);
+        // EXIBE A LINHA NA TELA
+        context.stroke();
+      };
+
+      // DEFINE A FUNÇÃO QUE VAI DESENHAR UM CÍRCULO
+      const drawCircle = () => {
+        // SELECIONA O ELEMENTO CANVAS COM ID "CIRCLE"
+        const canvas = document.getElementById("circle");
+        // OBTER O CONTEXTO DE DESENHO 2D
+        const context = canvas.getContext("2d");
+        // INICIA O DESENHO DE UMA FIGURA
+        context.beginPath();
+        // DESENHA UM CÍRCULO COM CENTRO EM (100,100) E RAIO DE 50
+        context.arc(100, 100, 50, 0, Math.PI * 2);
+        // EXIBE O CÍRCULO NA TELA
+        context.stroke();
+      };
+
+      // DEFINE A FUNÇÃO QUE VAI DESENHAR UM TEXTO
+      const drawText = () => {
+        // SELECIONA O ELEMENTO CANVAS COM ID "TEXT"
+        const canvas = document.getElementById("text");
+        // OBTER O CONTEXTO DE DESENHO 2D
+        const context = canvas.getContext("2d");
+        // DEFINE A FONTE E O TAMANHO DO TEXTO
+        context.font = "30px Arial";
+        // ESCREVE O TEXTO "HELLO, CANVAS!" NA POSIÇÃO (50,50)
+        context.fillText("Hello, Canvas!", 50, 50);
+      };
+
+      drawLine();
+      drawCircle();
+      drawText();
+    </script>
+  </body>
+</html>
