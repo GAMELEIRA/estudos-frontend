@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midia</title>
+</head>
+<body>
+  <!--MULTIMIDIA NA WEB É SOM, MUSICA, VIDEOS, FILMES E ANIMACOES-->
+  <!--OS ARQUIVOS MULTIMIDIA TEM FORMATOS E EXTENSOES DIFERENTES COMO: .WAV, .MP3, .MP4, .MPG, WMV E .AVI-->
+  
+  <!--ELEMENTO HTML USADO PARA MOSTRAR UM VIDEO EM UMA PAGINA WEB-->
+  <video width="400px" controls>
+    <!-- SRCSET PERMITE FORNECER DIFERENTES VERSÕES DO VÍDEO EM RESOLUÇÕES VARIADAS -->
+    <source src="./assets/BigBuckBunny_720p.mp4" type="video/mp4" srcset="./assets/BigBuckBunny_720p.mp4 720w, ./assets/BigBuckBunny_1080p.mp4 1080w">
+    <!-- FONTE PRINCIPAL DO VÍDEO EM RESOLUÇÃO 320X180 COM CODEC MP4 -->
+    <source src="./assets/BigBuckBunny_320x180.mp4" type="video/mp4">
+    <!-- MENSAGEM PARA NAVEGADORES QUE NÃO SUPORTAM O ELEMENTO VIDEO -->
+    Seu navegador não suporta o elemento video. Tente baixar o arquivo em: <a href="./assets/BigBuckBunny_320x180.mp4">video.mp4</a>
+  </video>
+  
+  
+</body>
+</html>
